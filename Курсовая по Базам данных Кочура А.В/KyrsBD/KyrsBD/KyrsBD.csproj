@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{00C22C53-18EC-499C-B01D-5FE3C7817476}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KyrsBD</RootNamespace>
+    <AssemblyName>KyrsBD</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Формы\ФункцииSQL\Age1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\ФункцииSQL\Age1.Designer.cs">
+      <DependentUpon>Age1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\ФункцииSQL\Age2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\ФункцииSQL\Age2.Designer.cs">
+      <DependentUpon>Age2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\ФункцииSQL\Age3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\ФункцииSQL\Age3.Designer.cs">
+      <DependentUpon>Age3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\BookOnHandForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\BookOnHandForm.Designer.cs">
+      <DependentUpon>BookOnHandForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\BooksForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\BooksForm.Designer.cs">
+      <DependentUpon>BooksForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibKyrsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LibKyrsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Формы\GenresForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\GenresForm.Designer.cs">
+      <DependentUpon>GenresForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\GivenBookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\GivenBookForm.Designer.cs">
+      <DependentUpon>GivenBookForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\IzdForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\IzdForm.Designer.cs">
+      <DependentUpon>IzdForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\KatalogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\KatalogForm.Designer.cs">
+      <DependentUpon>KatalogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\ReadersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\ReadersForm.Designer.cs">
+      <DependentUpon>ReadersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\ФункцииSQL\Fun1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\ФункцииSQL\Fun1.Designer.cs">
+      <DependentUpon>Fun1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\ФункцииSQL\Fun2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\ФункцииSQL\Fun2.Designer.cs">
+      <DependentUpon>Fun2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\ФункцииSQL\Fun3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\ФункцииSQL\Fun3.Designer.cs">
+      <DependentUpon>Fun3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\ФункцииSQL\Fun4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\ФункцииSQL\Fun4.Designer.cs">
+      <DependentUpon>Fun4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\ФункцииSQL\Fun5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\ФункцииSQL\Fun5.Designer.cs">
+      <DependentUpon>Fun5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\ФункцииSQL\Fun6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\ФункцииSQL\Fun6.Designer.cs">
+      <DependentUpon>Fun6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\ФункцииSQL\SpisFun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\ФункцииSQL\SpisFun.Designer.cs">
+      <DependentUpon>SpisFun.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Формы\BookOnHandForm.resx">
+      <DependentUpon>BookOnHandForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\ФункцииSQL\Age1.resx">
+      <DependentUpon>Age1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\ФункцииSQL\Age2.resx">
+      <DependentUpon>Age2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\ФункцииSQL\Age3.resx">
+      <DependentUpon>Age3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\BooksForm.resx">
+      <DependentUpon>BooksForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\GenresForm.resx">
+      <DependentUpon>GenresForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\GivenBookForm.resx">
+      <DependentUpon>GivenBookForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\IzdForm.resx">
+      <DependentUpon>IzdForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\KatalogForm.resx">
+      <DependentUpon>KatalogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Формы\ReadersForm.resx">
+      <DependentUpon>ReadersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\ФункцииSQL\Fun1.resx">
+      <DependentUpon>Fun1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\ФункцииSQL\Fun2.resx">
+      <DependentUpon>Fun2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\ФункцииSQL\Fun3.resx">
+      <DependentUpon>Fun3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\ФункцииSQL\Fun4.resx">
+      <DependentUpon>Fun4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\ФункцииSQL\Fun5.resx">
+      <DependentUpon>Fun5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\ФункцииSQL\Fun6.resx">
+      <DependentUpon>Fun6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\ФункцииSQL\SpisFun.resx">
+      <DependentUpon>SpisFun.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="LibKyrsDataSet.xsc">
+      <DependentUpon>LibKyrsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LibKyrsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LibKyrsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LibKyrsDataSet.xss">
+      <DependentUpon>LibKyrsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

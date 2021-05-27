@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KyrsBD", "KyrsBD\KyrsBD.csproj", "{00C22C53-18EC-499C-B01D-5FE3C7817476}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00C22C53-18EC-499C-B01D-5FE3C7817476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C22C53-18EC-499C-B01D-5FE3C7817476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C22C53-18EC-499C-B01D-5FE3C7817476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C22C53-18EC-499C-B01D-5FE3C7817476}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {176731EF-8AB8-49D9-8D3A-0A59BAE60E2A}
+	EndGlobalSection
+EndGlobal
